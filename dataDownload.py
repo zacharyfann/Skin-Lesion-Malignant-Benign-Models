@@ -2,7 +2,7 @@ from azure.storage.blob import ContainerClient
 import os
 
 # The SAS URL for the Stanford dataset
-SAS_URL = "https://aimistanforddatasets01.blob.core.windows.net/midasmultimodalimagedatasetforaibasedskincancer?sv=2019-02-02&sr=c&sig=%2F2BrVYZHwea%2FhOfwyuG2bWfVGd1UfPVDISxC1PlOX9E%3D&st=2025-01-25T22%3A55%3A30Z&se=2025-02-24T23%3A00%3A30Z&sp=rl"
+SAS_URL = "your url"
 
 # Specify your local download folder
 DOWNLOAD_FOLDER = "C:/Users/zacha/mlCancerData"
